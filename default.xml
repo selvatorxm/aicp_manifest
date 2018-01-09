@@ -571,6 +571,7 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
 
   <include name="snippets/aicp.xml" />
+  <include name="snippets/device.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
